@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.location{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 90px;
+}
+
+.location select {
+    background: transparent;
+    border: none;
+    color: #F3F3F3;
+}
+
+.menu {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 90px;
+}
+
+.menu img {
+    height: 23px;    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+  }
+
+  .banner{
+      position: relative;
+      height: 410px;
+      z-index: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 90px;
+  }
+
+  .bannerBackground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bannerBackground img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .bannerContent{
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .bannerContent p:nth-child(1){
+    font-size: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .bannerContent p:nth-child(2){
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .bannerContent button {
+      background-color: #F0A83E;
+      padding: 15px 23px;
+      color: white;
+      border-style: none;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+  .products{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0;
+  }
+
+  .productsHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productsHead img{
+      height: 74px;
+  }
+
+  h1{
+      font-size: 40px;
+  }
+
+  .productsCategories{
+      display: flex;
+      gap: 15px;
+  }
+
+  .groupProducts{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+
+

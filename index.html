@@ -4,69 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Petshop</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="location">
             <p>Grandes ofertas en comederos</p>
-            <ul>
-                <li>Español</li>
-                <li>ARG $</li>
-            </ul>
+            <div>
+                <select name="lang" id="lang">
+                    <option value="es">Español</option>
+                    <option value="en">Inglés</option>
+                </select>
+                <select name="currency" id="currency">
+                    <option value="es">ARS</option>
+                    <option value="en">USD</option>
+                </select>
+            </div>
         </div>
-        <div>
+        <div class="menu">
             <img src="img/Logo.png" alt="logo">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="img/pawprint.png" alt="pwprint">Categorías
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/pawprint.png" alt="pwprint">Pets
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/pawprint.png" alt="pwprint">Nosotros
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/pawprint.png" alt="pwprint">Contáctanos
-                    </a>
-                </li>
-            </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/pawprint 1.svg" alt="pwprint">Categorías
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/pawprint 1.svg" alt="pwprint">Pets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/pawprint 1.svg" alt="pwprint">Nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/pawprint 1.svg" alt="pwprint">Contáctanos
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
         </div>
     </header>
     <main>
         <section class="banner">
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="bowl">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+            <div class="bannerBackground">
+                <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="bowl">
+            </div>
+            <div class="bannerContent">
+                <p>¡Es un placer tenerte aquí!</p>
+                <p>¡Comederos en descuento!</p>
+                <button>COMEDEROS</button>
+            </div>
         </section>
-        <section class="productos">
-            <img src="img/patitas.PNG" alt="patitas">
-            <h1>Productos destacados</h1>
-            <p>Comederos - Accesorios - Comida</p>
-            <article>
+        <section class="products">
+            <div class="productsHead">
+                <img src="img/patitas.PNG" alt="patitas">
+                <h1>Productos destacados</h1>
+                <div class="productsCategories">
+                    <span>Comederos</span>
+                    <span>-</span>
+                    <span>Accesorios</span>
+                    <span>-</span>
+                    <span>Comida</span>
+                </div>
+            </div>            
+            <div class="groupProducts">
+                <article>
                 <img src="img/churrasquito.png" alt="churrasquito">
-                <p>Juguete churrasquito</p>
-                <p>$150</p>
-            </article>
-            <article>
-                <img src="img/comedero.png" alt="comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </article>
-            <article>
-                <img src="img/huesito.png" alt="huesito">
-                <p>Juguete huesito</p>
-                <p>$650</p>
-            </article>
+                    <p>Juguete churrasquito</p>
+                    <p>$150</p>
+                </article>
+                <article>
+                    <img src="img/comedero.png" alt="comedero">
+                    <p>Comedero para perro</p>
+                    <p>$250</p>
+                </article>
+                <article>
+                    <img src="img/huesito.png" alt="huesito">
+                    <p>Juguete huesito</p>
+                    <p>$650</p>
+                </article>
+            </div>
         </section>
         <section class="contactanos">
             <h2>Contáctanos</h2>
